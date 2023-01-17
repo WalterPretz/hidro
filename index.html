@@ -1,0 +1,88 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+?><!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>HIDRO - Inicio</title>
+	<?php $this->load->view('layout/header'); ?>
+</head>
+<body>
+	<header class="mb-5"><?php $this->load->view('layout/menu'); ?></header>
+	<main>
+		<div id="dataImg">
+			<img src="<?=$base_url?>resource/img/fondo.jpg" alt="fondo" class="img-fluid">
+		</div>
+		<div id="acerca" data-aos="fade-up">
+			<div class="container p-5">
+				<center>
+					<img src="<?=$base_url?>resource/img/hidroa.png" alt="fondo" class="img-fluid pb-5" width="200" >
+				</center>
+				<p class="text-center">HIDROcompras.com es una empresa guatemalteca que fue creada el 02 de Julio del 2021, nos enfocamos en el comercio electrónico y sub-distribución en línea. Creemos que el E-commerce y el RETAIL tienen mucho potencial como tienda virtual, representamos las mejores marcas en soluciones hidráulicas en Guatemala y nuestro compromiso es proteger a nuestros clientes de la PANDEMIA que aún estamos atravesando.</p>
+				<p>“De causalidad leí una nota del dca.gob.gt y llamo mucho mi atención y fue allí donde me di cuenta de que este nicho de mercado no tiene su propia tienda ONLINE en donde el cliente pueda escoger sus productos y comprarlos de forma tranquila, ahora pongamos las palabras anteriores pero con la situación que actualmente estamos pasando que es el COVID-19 “El cliente llega a una tienda física donde tiene que esperar para que lo atiendan ya que por medidas de bioseguridad y distanciamiento están atendiendo 1 A 1 y cuando al fin es tu turno, lamentablemente no hay de lo que necesita, el cliente se molesta por que perdió TIEMPO, SE EXPUSO Y SALIO DEL LUGAR SIN NADA!”</p>
+			</div>
+		</div>
+		<div class="container-fluid" id="producto" data-aos="fade-down">
+			<div class="container-fluid">
+				<h2 class="text-center pb-3">Productos</h2>
+				<div class="row">
+					<div class="col-12 col-md-4 col-lg-3">
+						<div class="caja text-center">
+							<img src="<?=$base_url?>resource/img/img1.png" alt="imagenes" class="img-fluid" width="150"><br>
+							<p class="fw-bold">Bombas</p>
+							<a href="<?=$base_url?>producto/bombas" id="bombasData" class="btn btn-sm btn-primary"><i class="fa fa-paper-plane"></i> Ir</a>
+						</div>
+					</div>
+					<div class="col-12 col-md-4 col-lg-3">
+						<div class="caja text-center">
+							<img src="<?=$base_url?>resource/img/img2.png" alt="imagenes" class="img-fluid" width="150"><br>
+							<p class="fw-bold">Motores</p>
+							<button class="btn btn-sm btn-primary"><i class="fa fa-paper-plane"></i> Ir</button>							
+						</div>
+					</div>
+					<div class="col-12 col-md-4 col-lg-3">
+						<div class="caja text-center">
+							<img src="<?=$base_url?>resource/img/img3.png" alt="imagenes" class="img-fluid" width="150"><br>
+							<p class="fw-bold">Lámparas</p>
+							<button class="btn btn-sm btn-primary"><i class="fa fa-paper-plane"></i> Ir</button>							
+						</div>
+					</div>
+					<div class="col-12 col-md-4 col-lg-3">
+						<div class="caja text-center">
+							<img src="<?=$base_url?>resource/img/img4.png" alt="imagenes" class="img-fluid" width="150"><br>
+							<p class="fw-bold">Accesorios</p>
+							<button class="btn btn-sm btn-primary"><i class="fa fa-paper-plane"></i> Ir</button>							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container pt-4" id="servicio">
+			<div class="text-center">
+				<h2>Nuestros Servicios</h2>
+			</div>
+			<br><br><br>
+		</div>
+				<div class="container pt-4" id="socios">
+			<div class="text-center">
+				<h2>Nuestros Asociados</h2>
+			</div>
+			<br><br><br>
+		</div>
+		<div class="text-center" id="contactar">
+			<h2>Contáctanos</h2>
+			<br><br><br>
+		</div>
+		<div>
+			<a href="https://wa.me/50230656786?text=Hola,%20le%20comento%20que%20me%20interesó%20el%20producto%20:%20" class="float" target="_blank">
+				<i class="fa fa-whatsapp my-float"></i>
+			</a>
+		</div>
+	</main>
+	<footer>
+		<?php $this->load->view('layout/footer'); ?>
+	</footer>
+</body>
+</html>
