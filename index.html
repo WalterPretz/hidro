@@ -33,7 +33,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<a class="nav-link active" aria-current="page" href="#servicio">Servicios</a>
 				  </li>
 				  <li class="nav-item">
-					<a class="nav-link active" aria-current="page" href="#socios">Socios</a>
+					<a class="nav-link active" aria-current="page" href="#socios">Marcas</a>
 				  </li>
 				  <li class="nav-item">
 					<a class="nav-link active" aria-current="page" href="#contactar">Contáctanos</a>
@@ -44,66 +44,243 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		</nav>
 	</header>
 	<main>
-		<div id="dataImg">
+		<div class="container-fluid sect" id="sect1">
+			<video autoplay="true" muted="true" class="img-fluid" loop="true" src=".//resource/img/pool.mp4"></video>
+			<div class="text-center pt-5 pb-5">
+				<img src="./resource/img/hidrob.png" alt="logo" height="150">
+			</div>
+		</div>
+		<div>
 			<img src="./resource/img/fondo.jpg" alt="fondo" class="img-fluid">
 		</div>
 		<div id="acerca" data-aos="fade-up">
-			<div class="container p-5">
-				<center>
-					<img src="./resource/img/hidroa.png" alt="fondo" class="img-fluid pb-5" width="200" >
-				</center>
+			<div class="container p-5 textSomos">
+				<div class="text-center">
+					<img src="./resource/img/hidroa.png" alt="fondo" class="img-fluid pb-5" width="175" >
+				</div>
 				<p class="text-center">HIDROcompras.com es una empresa guatemalteca que fue creada el 02 de Julio del 2021, nos enfocamos en el comercio electrónico y sub-distribución en línea. Creemos que el E-commerce y el RETAIL tienen mucho potencial como tienda virtual, representamos las mejores marcas en soluciones hidráulicas en Guatemala y nuestro compromiso es proteger a nuestros clientes de la PANDEMIA que aún estamos atravesando.</p>
-				<p>“De causalidad leí una nota del dca.gob.gt y llamo mucho mi atención y fue allí donde me di cuenta de que este nicho de mercado no tiene su propia tienda ONLINE en donde el cliente pueda escoger sus productos y comprarlos de forma tranquila, ahora pongamos las palabras anteriores pero con la situación que actualmente estamos pasando que es el COVID-19 “El cliente llega a una tienda física donde tiene que esperar para que lo atiendan ya que por medidas de bioseguridad y distanciamiento están atendiendo 1 A 1 y cuando al fin es tu turno, lamentablemente no hay de lo que necesita, el cliente se molesta por que perdió TIEMPO, SE EXPUSO Y SALIO DEL LUGAR SIN NADA!”</p>
+				<p class="text-center">“De causalidad leí una nota del dca.gob.gt y llamo mucho mi atención y fue allí donde me di cuenta de que este nicho de mercado no tiene su propia tienda ONLINE en donde el cliente pueda escoger sus productos y comprarlos de forma tranquila, ahora pongamos las palabras anteriores pero con la situación que actualmente estamos pasando que es el COVID-19 “El cliente llega a una tienda física donde tiene que esperar para que lo atiendan ya que por medidas de bioseguridad y distanciamiento están atendiendo 1 A 1 y cuando al fin es tu turno, lamentablemente no hay de lo que necesita, el cliente se molesta por que perdió TIEMPO, SE EXPUSO Y SALIO DEL LUGAR SIN NADA!”</p>
+				<p class="text-center">¡La propuesta de HIDROcompras.com es ser tu TIENDA EN LINEA DE SOLUCIONES HIDRAULICAS EN TU CELULAR, TABLET O COMPUTADORA DESDE LA COMODIDAD DE TU CASA!</p>
 			</div>
 		</div>
 		<div class="container-fluid" id="producto" data-aos="fade-down">
-			<div class="container-fluid">
-				<h2 class="text-center pb-3">Productos</h2>
+			<div class="container pb-5 pt-2 mb-5">
+				<h2 class="text-center pb-2 textoAzul">Productos</h2>
+				<p class="textoAzul text-center h3">Categoría de Productos</p>
 				<div class="row">
-					<div class="col-12 col-md-4 col-lg-3">
-						<div class="caja text-center">
-							<img src="./resource/img/img1.png" alt="imagenes" class="img-fluid" width="150"><br>
-							<p class="fw-bold">Bombas</p>
-							<a href="#" id="bombasData" class="btn btn-sm btn-primary"><i class="fa fa-paper-plane"></i> Ir</a>
+					<div class="col">
+						<div class="text-center estiloProd">
+							<a href="">
+							<img src="./resource/img/p1.png" alt="producto" height="120">
+							<p class="textoAzul">Bombas</p>
+							<i class="fa-solid fa-square-arrow-up-right fa-lg"></i></a>
 						</div>
 					</div>
-					<div class="col-12 col-md-4 col-lg-3">
-						<div class="caja text-center">
-							<img src="./resource/img/img2.png" alt="imagenes" class="img-fluid" width="150"><br>
-							<p class="fw-bold">Motores</p>
-							<button class="btn btn-sm btn-primary"><i class="fa fa-paper-plane"></i> Ir</button>							
+					<div class="col">
+						<div class="text-center estiloProd">
+							<a href="">
+							<img src="./resource/img/p2.png" alt="producto" height="120">
+							<p class="textoAzul">Tanques Hidroneumaticos</p>
+							<i class="fa-solid fa-square-arrow-up-right fa-lg"></i></a>
 						</div>
 					</div>
-					<div class="col-12 col-md-4 col-lg-3">
-						<div class="caja text-center">
-							<img src="./resource/img/img3.png" alt="imagenes" class="img-fluid" width="150"><br>
-							<p class="fw-bold">Lámparas</p>
-							<button class="btn btn-sm btn-primary"><i class="fa fa-paper-plane"></i> Ir</button>							
+					<div class="col">
+						<div class="text-center estiloProd">
+							<a href="">
+							<img src="./resource/img/p4.png" alt="producto" height="120">
+							<p class="textoAzul">Motores Sumergibles</p>
+							<i class="fa-solid fa-square-arrow-up-right fa-lg"></i></a>
 						</div>
 					</div>
-					<div class="col-12 col-md-4 col-lg-3">
-						<div class="caja text-center">
-							<img src="./resource/img/img4.png" alt="imagenes" class="img-fluid" width="150"><br>
-							<p class="fw-bold">Accesorios</p>
-							<button class="btn btn-sm btn-primary"><i class="fa fa-paper-plane"></i> Ir</button>							
+					<div class="col">
+						<div class="text-center estiloProd">
+							<a href="">
+							<img src="./resource/img/p5.png" alt="producto" height="120">
+							<p class="textoAzul">Paneles de Arranque</p>
+							<i class="fa-solid fa-square-arrow-up-right fa-lg"></i></a>
 						</div>
+					</div>
+					<div class="col">
+						<div class="text-center estiloProd">
+							<a href="">
+							<img src="./resource/img/p3.png" alt="producto" height="120">
+							<p class="textoAzul">Accesorios</p>
+							<i class="fa-solid fa-square-arrow-up-right fa-lg"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col">
+						<div class="text-center estiloProd">
+							<a href="">
+							<img src="./resource/img/p8.png" alt="producto" height="120">
+							<p class="textoAzul">Químicos</p>
+							<i class="fa-solid fa-square-arrow-up-right fa-lg"></i></a>
+						</div>
+					</div>
+					<div class="col">
+						<div class="text-center estiloProd">
+							<a href="">
+							<img src="./resource/img/p9.png" alt="producto" height="120">
+							<p class="textoAzul">Calentadores</p>
+							<i class="fa-solid fa-square-arrow-up-right fa-lg"></i></a>
+						</div>
+					</div>
+					<div class="col">
+						<div class="text-center estiloProd">
+							<a href="">
+							<img src="./resource/img/p12.png" alt="producto" height="120">
+							<p class="textoAzul">Lámparas</p>
+							<i class="fa-solid fa-square-arrow-up-right fa-lg"></i></a>
+						</div>
+					</div>
+					<div class="col">
+						<div class="text-center estiloProd">
+							<a href="">
+							<img src="./resource/img/p6.png" alt="producto" height="120">
+							<p class="textoAzul">Combos</p>
+							<i class="fa-solid fa-square-arrow-up-right fa-lg"></i></a>
+						</div>
+					</div>
+					<div class="col">
+						<div class="text-center estiloProd">
+							<a href="">
+							<img src="./resource/img/p10.png" alt="producto" height="120">
+							<p class="textoAzul">Presión</p>
+							<i class="fa-solid fa-square-arrow-up-right fa-lg"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col">
+						<div class="text-center estiloProd">
+							<a href="">
+							<img src="./resource/img/p7.png" alt="producto" height="120">
+							<p class="textoAzul">Accesorios de Picina</p>
+							<i class="fa-solid fa-square-arrow-up-right fa-lg"></i></a>
+						</div>
+					</div>
+					<div class="col">
+						<div class="text-center estiloProd">
+							<a href="">
+							<img src="./resource/img/p11.png" alt="producto" height="120">
+							<p class="textoAzul">Bomba para Sólidos</p>
+							<i class="fa-solid fa-square-arrow-up-right fa-lg"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="text-center pt-4 pb-5">
+					<a href="" class="textoAzul">Todos los productos ....</a>
+				</div>
+			</div>
+		</div>
+		<div class="pt-5 pb-5" id="servicio" data-aos="fade-down">
+			<h2 class="text-center container-fluid textoAzul pb-3 pt-3">Nuestros Servicios</h2>
+			<div class="pt-5 pb-5 mb-3 container-fluid text-center">
+				<img src="./resource/img/baner1.jpg" alt="bane1" class="img-fluid">
+				<img src="./resource/img/baner2.jpg" alt="bane2" class="img-fluid">
+			</div>
+		</div>
+		<div class="container pt-5 pb-5" id="socios" data-aos="fade-down">
+			<div class="text-center">
+				<h2 class="textoAzul pt-5 pb-4 mb-3"><i class="fa-solid fa-handshake"></i> Marcas</h2>
+				<div class="row efectoPatro">
+					<div class="col-2">
+						<img src="./resource/img/aqua.png" alt="patrocinadores" width="150" class="img-fluid">
+					</div>
+					<div class="col-2">
+						<img src="./resource/img/AFT.png" alt="patrocinadores" width="150" class="img-fluid">
+					</div>
+					<div class="col-2">
+						<img src="./resource/img/AMERICAN-PROLINE.jpg" alt="patrocinadores" width="150" class="img-fluid">
+					</div>
+					<div class="col-2">
+						<img src="./resource/img/ANAUGER.jpg" alt="patrocinadores" width="150" class="img-fluid">
+					</div>
+					<div class="col-2">
+						<img src="./resource/img/APEC.png" alt="patrocinadores" width="150" class="img-fluid">
+					</div>
+					<div class="col-2">
+						<img src="./resource/img/AQUACHLOR-POOL.png" alt="patrocinadores" width="150" class="img-fluid">
+					</div>
+				</div>
+				<div class="row efectoPatro">
+					<div class="col-2">
+						<img src="./resource/img/AQUAPRO.png" alt="patrocinadores" width="150" class="img-fluid">
+					</div>
+					<div class="col-2">
+						<img src="./resource/img/AQUATHERMAX.png" alt="patrocinadores" width="150" class="img-fluid">
+					</div>
+					<div class="col-2">
+						<img src="./resource/img/BERKELEY.png" alt="patrocinadores" width="150" class="img-fluid">
+					</div>
+					<div class="col-2">
+						<img src="./resource/img/BOSHART-INDUSTRIES.png" alt="patrocinadores" width="150" class="img-fluid">
+					</div>
+					<div class="col-2">
+						<img src="./resource/img/CLEAR-AQUA.jpg" alt="patrocinadores" width="150" class="img-fluid">
+					</div>
+					<div class="col-2">
+						<img src="./resource/img/DAB.jpg" alt="patrocinadores" width="150" class="img-fluid">
+					</div>
+				</div>
+				<div class="row efectoPatro">
+					<div class="col-2">
+						<img src="./resource/img/ECOSMART.png" alt="patrocinadores" width="150" class="img-fluid">
+					</div>
+					<div class="col-2">
+						<img src="./resource/img/EMAUX.png" alt="patrocinadores" width="150" class="img-fluid">
+					</div>
+					<div class="col-2">
+						<img src="./resource/img/ESPA.png" alt="patrocinadores" width="150" class="img-fluid">
+					</div>
+					<div class="col-2">
+						<img src="./resource/img/FLOTEC.jpg" alt="patrocinadores" width="150" class="img-fluid">
+					</div>
+					<div class="col-2">
+						<img src="./resource/img/FRANKLIN-ELECTRIC.png" alt="patrocinadores" width="150" class="img-fluid">
+					</div>
+					<div class="col-2">
+						<img src="./resource/img/GLOBAL-WATER-SOLUTION-2-1.jpeg" alt="patrocinadores" width="150" class="img-fluid">
+					</div>
+				</div>
+				<div class="row efectoPatro">
+					<div class="col-2">
+						<img src="./resource/img/HELBERT-2.jpg" alt="patrocinadores" width="150" class="img-fluid">
+					</div>
+					<div class="col-2">
+						<img src="./resource/img/HYDROPOOL.png" alt="patrocinadores" width="150" class="img-fluid">
+					</div>
+					<div class="col-2">
+						<img src="./resource/img/MYERS.jpg" alt="patrocinadores" width="150" class="img-fluid">
+					</div>
+					<div class="col-2">
+						<img src="./resource/img/NU-CLO.png" alt="patrocinadores" width="150" class="img-fluid">
+					</div>
+					<div class="col-2">
+						<img src="./resource/img/PENTAIR.jpg" alt="patrocinadores" width="150" class="img-fluid">
+					</div>
+					<div class="col-2">
+						<img src="./resource/img/PULSAFEEDER-2.png" alt="patrocinadores" width="150" class="img-fluid">
+					</div>
+				</div>
+				<div class="row efectoPatro">
+					<div class="col-2">
+						<img src="./resource/img/SOMET.png" alt="patrocinadores" width="150" class="img-fluid">
+					</div>
+					<div class="col-2">
+						<img src="./resource/img/starite.png" alt="patrocinadores" width="150" class="img-fluid">
+					</div>
+					<div class="col-2">
+						<img src="./resource/img/THEBE.jpg" alt="patrocinadores" width="150" class="img-fluid">
+					</div>
+					<div class="col-2">
+						<img src="./resource/img/TITAN.png" alt="patrocinadores" width="150" class="img-fluid">
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="container pt-4" id="servicio">
-			<div class="text-center">
-				<h2>Nuestros Servicios</h2>
-			</div>
-			<br><br><br>
-		</div>
-				<div class="container pt-4" id="socios">
-			<div class="text-center">
-				<h2>Nuestros Asociados</h2>
-			</div>
-			<br><br><br>
-		</div>
-		<div class="container-fluid pb-5" id="contactar">
+		<div class="container-fluid pb-5" id="contactar" data-aos="fade-down">
 			<h2 class="pb-4 pt-5 text-center"><i class="fa-solid fa-headset"></i> Contáctanos</h2>
 			<div class="row">
 				<div class="col-12 col-lg-5">
@@ -139,6 +316,27 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						</form>
 					</div>
 				</div>
+			</div>
+		</div>
+		<div class="container-fluid acceso pt-5 pb-5">
+			<div class="row">
+				<div class="col col-md-1 col-lg-1"></div>
+				<div class="col-6 col-md-2 col-lg-2">
+					<p class="text-center textoAzul"><i class="fa-solid fa-shield-halved colAma fa-lg"></i> Compras seguras</p>
+				</div>
+				<div class="col-6 col-md-2 col-lg-2">
+					<p class="text-center textoAzul"><i class="fa-solid fa-clipboard-check colAma fa-lg"></i> Te damos garantía</p>
+				</div>
+				<div class="col-6 col-md-2 col-lg-2">
+					<p class="text-center textoAzul"><i class="fa-solid fa-truck-moving colAma fa-lg"></i> Envío a todo el país</p>
+				</div>
+				<div class="col-6 col-md-2 col-lg-2">
+					<p class="text-center textoAzul"><i class="fa-solid fa-handshake-simple colAma fa-lg"></i> Mayoristas</p>
+				</div>
+				<div class="col-6 col-md-2 col-lg-2">
+					<p class="text-center textoAzul"><i class="fa-brands fa-facebook colAma fa-lg"></i> <i class="fa-brands fa-instagram colAma"></i> Redes Sociales</p>
+				</div>
+				<div class="col col-md-1 col-lg-1"></div>
 			</div>
 		</div>
 		<div>

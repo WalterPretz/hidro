@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 @import url('./all.css');
 @import url('./brands.css');
 @import url('./solid.css');
@@ -22,11 +23,6 @@ nav{
 
 .menuIfra{
 	width: 100% !important;
-}
-
-/*img*/
-#dataImg{
-	margin-top: 3.5rem;
 }
 
 /*whatsapp*/
@@ -108,6 +104,9 @@ nav{
 	background-color: #003566;
 }
 
+#fondopie a:link {
+	text-decoration: none;
+}
 .footer{
     min-height: 500px;
 }
@@ -176,7 +175,7 @@ nav{
 	margin: 3rem;
 	padding: 3rem;
 	border-radius: 15px;
-	-webkit-box-shadow: 0px -1px 8px 0px rgba(0,0,0,0.65); 
+	-webkit-box-shadow: 2px 2px 8px 0px rgba(0,0,0,0.65); 
 	box-shadow: 0px -1px 8px 0px rgba(0,0,0,0.65);
 }
 
@@ -185,10 +184,55 @@ nav{
 	display:none;
 }
 
+/*somos*/
+.textSomos{
+	font-family: 'Poppins', sans-serif;
+	color: black;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#servicio{
+	-webkit-box-shadow: 0px -1px 8px 0px rgba(0,0,0,0.65); 
+	box-shadow: 0px -1px 8px 0px rgba(0,0,0,0.65);
+}
+
+.colAma{
+	color: #daa805 !important;
+}
+
+.textoAzul{
+	color: #003566;
+	font-weight: bold;
+}
+
+/*video*/
+.sect {
+	width: 100%;
+  }
+  #sect1 {
+	margin-top: 3.5rem;
+  }
+  video {
+	position: absolute;
+	left: 0;
+	height: 100%;
+	z-index: -1;
+  }
+
+
+  .efectoPatro .col-2{
+	padding: 3px 2px;
+  }
+  .efectoPatro .col-2:hover{
+	border-radius: 10px;
+	box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  }
+
 @media screen and (max-width: 991px){
 	.darFoma{
 		margin: 2px;
-		padding: 20px 7px;
+		padding: 20px 12px;
 	}
 
 	#imgContac{
@@ -198,4 +242,25 @@ nav{
 	.imagenDefect{
 		display: none;
 	}
+	.estiloProd{
+		margin-top: 1rem;
+		margin-left: 1rem;
+		margin-right: 1rem;
+		padding: 1rem;
+	}
+}
+
+a:link {
+	text-decoration: none;
+}
+.estiloProd{
+	margin-top: 1rem;
+	height: 220px;
+	background-color: #f1f1ec;
+	padding: 1rem;
+	border-radius: 10px;
+}
+
+.estiloProd:hover{
+	box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
