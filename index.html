@@ -17,7 +17,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<header class="mb-5">
 		<nav class="navbar fixed-top  navbar-expand-md navbar-dark" id="nbarras">
 			<div class="container">
-			  <a class="navbar-brand" href="/index.html"><i class="fa fa-home"></i> Inicio</a>
+			  <a class="navbar-brand" href="./"><i class="fa fa-home"></i> Inicio</a>
 			  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			  </button>
@@ -65,7 +65,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		</div>
 		<div class="container-fluid" id="producto" data-aos="fade-down">
 			<div class="container pb-5 pt-2 mb-5">
-				<h2 class="text-center pb-2 textoAzul">Productos</h2>
+				<h2 class="text-center pb-2 textoAzul">Nuestros Productos</h2>
 				<p class="textoAzul text-center h3">Categoría de Productos</p>
 				<div class="row">
 					<div class="col">
@@ -152,7 +152,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					</div>
 				</div>
 				<div class="row">
-					<div class="col">
+					<div class="col-12 col-md-3">
 						<div class="text-center estiloProd">
 							<a href="">
 							<img src="./resource/img/p7.png" alt="producto" height="120">
@@ -160,7 +160,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 							<i class="fa-solid fa-square-arrow-up-right fa-lg"></i></a>
 						</div>
 					</div>
-					<div class="col">
+					<div class="col-12 col-md-3">
 						<div class="text-center estiloProd">
 							<a href="">
 							<img src="./resource/img/p11.png" alt="producto" height="120">
@@ -285,10 +285,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<div class="row">
 				<div class="col-12 col-lg-5">
 					<div class="text-end imagenDefect">
-						<img src="/resource/img/contactar.png" alt="contactar" width="300" class="img-fluid">
+						<img src="./resource/img/contactar.png" alt="contactar" width="300" class="img-fluid">
 					</div>
 					<div class="text-end"  id="imgContac">
-						<img src="/resource/img/contactar2.png" alt="contactar" width="400" class="img-fluid">
+						<img src="./resource/img/contactar2.png" alt="contactar" width="400" class="img-fluid">
 					</div>
 				</div>
 				<div class="col-12 col-lg-4">
@@ -345,13 +345,42 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			</a>
 		</div>
 	</main>
-	<iframe class="footerIframe" src=".//app/views/layout/footer.html" frameborder="0"></iframe>	
+	<footer>
+		<div class="container-fluid" id="fondopie">
+			<div class="seccion-oscura d-flex flex-column align-items-center justify-content-center pt-4">
+				<div class="row">
+					<div class="col text-end">
+						<img class="footer-logo" src="resource/img/hidrob.png" alt="logo empresa" class="img-fluid">
+					</div>
+					<div class="col color-texto-f">
+						<i class="fa-solid fa-phone"></i> <strong>+502 3065-6786</strong><br>
+						<i class="fa-solid fa-location-dot"></i> <strong>Calle Corona 4ta Avenida 0-21 zona 12 Colonia Ciudad Real 1</strong>
+					</div>
+				</div>
+				<div class="iconos-redes-sociales d-flex align-items-center justify-content-center">
+					<a href="https://wa.me/50230656786" target="_blank">
+						<i class="fa-solid fa-phone"></i>
+					</a>
+					<a href="https://www.facebook.com/hidrocompras" target="_blank">
+						<i class="fa-brands fa-facebook"></i>
+					</a>
+					<a href="https://www.instagram.com/hidrocompras/" target="_blank">
+						<i class="fa-brands fa-instagram"></i>
+					</a>
+					<a  href="https://wa.me/50230656786?text=Hola,%20le%20comento%20que%20me%20interesó%20el%20producto%20:%20" target="_blank">
+						<i class="fa-brands fa-whatsapp"></i>
+					</a>
+				</div>
+				<div class="derechos-autor">WalterPretz (2022) &#169</div>
+			</div>
+		</div>
+	</footer>
 	<script type="text/javascript" src=".//node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
 	<script type="text/javascript" src=".//node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src=".//node_modules/jquery/dist/jquery.js"></script>
 	<script type="text/javascript" src=".//node_modules/jquery.numeric/jquery.numeric.min.js"></script>
 	<script type="text/javascript" src=".//node_modules/sweetalert2/dist/sweetalert2.all.js"></script>
 	<script type="text/javascript" src=".//node_modules/aos/dist/aos.js"></script>
-	<script type="text/javascript" src=".//resource/js/script.js" defer></script>
+	<script type="text/javascript" src="./index.js" defer></script>
 </body>
 </html>
