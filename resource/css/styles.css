@@ -99,7 +99,7 @@ nav{
 
 @media only screen and (min-width: 768px) {
 	.pie{
-		position: absolute;
+		margin-top: 20px;
 		bottom: 0;
 		width: 100%;
 	}
@@ -261,9 +261,9 @@ nav{
 	}
 
 	.cajaProductos1{
+		margin-top: 1rem;
 		margin-bottom: 3px;
-		margin-left: 10px;
-		margin-right: -10px;
+		margin-left: 5px;
 	}
 
 	.cajaProductos2{
@@ -276,15 +276,15 @@ nav{
 
 @media screen and (max-width: 821px) {
 	.cajaProductos1{
+		margin-top: 1rem;
 		margin-bottom: 3px;
-		margin-left: 10px;
-		margin-right: -10px;
+		margin-left: 5px;
 	}
 
 	.cajaProductos2{
+		margin-top: 1rem;
 		margin-bottom: 5px;
 		margin-right: 10px;
-		margin-left: -10px;
 	}
 }
 
@@ -305,6 +305,7 @@ a:link {
 
 /*seccion caja productos*/
 .cajaProductos1{
+	margin-top: 1rem;
 	border-radius: 5px;
 	border: #c5c5c5 solid 1px;
 	height: 310px;
@@ -312,6 +313,7 @@ a:link {
 }
 
 .cajaProductos2{
+	margin-top: 1rem;
 	border-radius: 5px;
 	border: #c5c5c5 solid 1px;
 	height: 310px;

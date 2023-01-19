@@ -24,14 +24,17 @@ conexion.connect(function(error){
 })
 
 /*saber el puerto*/
+/*
 const puerto = process.env.PUERTO || 3002
 app.listen(puerto, function(){
     console.log("Servidor Ok en puerto:"+puerto)
 })
+*/
 
 let respuesta = '';
 
-conexion.query('SELECT * FROM producto', (err, datos) =>{
+conexion.query('SELECT nombre, precio_venta, imagen FROM producto',
+    (err, datos) =>{
     respuesta=datos;
     if(err) throw err
 })
